@@ -1,0 +1,43 @@
+html{
+  height: 100%;
+}
+body{
+  margin: 0;
+  height: 100%;
+}
+.grid{
+  display: flex;
+  flex-flow: row wrap;
+  height: 200px;
+   &__element{
+    &--primero{
+      background-color: red;
+      padding: 1rem;
+      margin: 1rem;
+      flex: 1 120px;
+    }
+    &--segundo{
+      background-color: rgb(48, 126, 32);
+      padding: 1rem;
+      margin: 1rem;
+      flex-grow: 1;
+    }
+    &--tercero{
+      background-color: rgb(31, 199, 148);
+      padding: 1rem;
+      margin: 1rem;
+      flex-grow: 2;
+      align-self: stretch;
+    }
+    &--cuarto{
+      background-color: rgb(238, 255, 0);
+      padding: 1rem;
+      margin: 1rem;
+    }
+    &--quinto{
+      background-color: rgb(68, 0, 255);
+      padding: 1rem;
+      margin: 1rem;
+    }
+  }
+}
