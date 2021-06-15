@@ -1,8 +1,0 @@
-body{
-  font-family: Roboto, sans-serif;
-  background-color: rgba(223, 219, 219, 0.897);
-}
-//function to convert px to rem
-@function rem($value: 2rem) {
-  @return ($value / 16 * 1rem);
-}
